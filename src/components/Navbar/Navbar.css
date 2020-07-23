@@ -1,0 +1,8 @@
+.navbar{
+  list-style: none;
+  align-items: center;
+}
+
+.pull-right{
+  align-self: flex-end;
+}

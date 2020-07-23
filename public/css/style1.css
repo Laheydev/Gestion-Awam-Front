@@ -1,0 +1,25 @@
+.tableauProjet{
+  font-weight: bolder;
+  border: 2px solid white!important;
+}
+
+.bordRight{
+  border-right: 2px solid white!important;
+  font-weight: bold;
+}
+
+.bordLeft{
+  border-left: 2px solid white!important;
+}
+
+.bordBottom{
+  border-bottom: 2px solid white!important;
+}
+
+.bordTop{
+  border-top: 2px solid white!important;
+}
+
+.customDropdown{
+
+}

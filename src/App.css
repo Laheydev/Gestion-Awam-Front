@@ -1,0 +1,322 @@
+/* CSS GENERAL */
+
+@import "https://use.typekit.net/ltd3wvw.css";
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  min-width:100%;
+}
+
+body{
+  font-family: 'sofia-pro'!important;
+  font-weight: 900;
+  background-color: white!important;
+}
+
+
+/* PRESET COULEURS DU PROJET */
+.bg-red-awam{
+  background-color: #E2445B;
+}
+
+.bg-blue-awam{
+  background-color: #65CCFF;
+}
+
+.bg-yellow-awam{
+  background-color: #FDAB3D;
+}
+
+.bg-dark-awam{
+  background-color: #5A5A5A;
+}
+
+.bg-green-awam{
+  background-color: #1FD274;
+}
+.bg-grey-awam{
+  background-color: #F2F2F2;
+}
+
+.bg-disabled{
+  background-color: #A5A4A5;
+}
+
+#main-sidebar
+{
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: -5000px; /* any large number will do */
+ padding-bottom: 5000px;
+  margin-top: 0;
+  left: 0px;
+  background-color: #2c2c38;
+}
+
+
+/* PRESET MARGINS */
+
+.marginComponent{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+/* REUTILISABLE */
+
+.self-mb-40{
+  margin-bottom: 40px;
+}
+
+.whiteText{
+  color: white;
+}
+
+.align-title{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.b-none{
+  border: none;
+}
+
+.center-txt{
+  display: flex;
+  align-items: center;
+}
+
+/* GESTION DE LA DIV LOGOUT */
+
+.loggedOut{
+  text-align: center;
+  font-size: 3rem;
+}
+
+/* CSS DE LA SIDEBAR */
+
+.near-item{
+  position: absolute;
+  top: 37%;
+  right: 73%;
+  color: #999999;
+}
+
+.dropdown-toggle::after{
+  display:none
+}
+
+a>img{
+  border: none!important;
+}
+
+.logo{
+  fill: #1FD274;
+  float: none;
+}
+
+/* CSS de la page projets */
+.bigTitle{
+  color: black;
+  font-size: 4rem;
+}
+
+.projectName{
+  color: #1FD274;
+  border: 3px solid white;
+  text-align: left;
+  font-weight: 900;
+  font-size: 2.3rem;
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+
+/* SEARCHBAR  */
+
+.searchBar{
+  height: 40px;
+  color: #A5A4A5;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  vertical-align: bottom;
+  padding-left: 15px;
+}
+
+.searchBar::placeholder{
+  color: #A5A4A5;
+}
+.icon-search{
+  position: absolute;
+  left: 88%;
+  top: 47%;
+}
+
+/* BOUTON ADD */
+
+.btnAddProjet{
+  height: 40px;
+  font-weight: 900;
+  vertical-align: bottom;
+  align-items: flex-end;
+}
+
+
+/* SPINNER LOADING */
+
+.loading-spinner{
+  text-align: center;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+
+/* CSS du Tableau projets  */
+td{
+  padding: 5px 10px 10px 5px;
+  background-color: #F2F2F2;
+  border: 2px solid white;
+}
+
+th{
+  font-size: 1.2rem;
+}
+
+table{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.headProjet,.iconProjet{
+  background-color: white;
+  color: #A5A4A5;
+}
+
+.fw-800{
+  font-weight: 800
+}
+
+.fw-400{
+  font-weight: 400;
+}
+
+.iconProjet{
+  color: black;
+}
+
+.selectCustom{
+  border: none;
+}
+
+
+.img_collab{
+  width: 45px;
+  vertical-align: middle;
+  border-radius: 90px;
+  border: 2px solid white;
+}
+
+/* COMPONENTS DE GESTION */
+
+.listName{
+  color: #1FD274;
+  font-size: 2.3rem;
+}
+
+.listTitle{
+  background-color: white;
+  color: #A5A4A5;
+}
+
+.align-list-title{
+  display: flex;
+  align-items: baseline;
+}
+
+/* CSS DES MODALES */
+
+.modalSizing{
+  width: 100%;
+  height: 400px;
+}
+
+
+
+.btnModale{
+  margin-top: 50px;
+  width: 50%;
+  text-align: center;
+}
+
+.fieldsModal{
+  padding: 7px;
+  border: 1px solid #5A5A5A;
+  border-radius: 4px;
+  margin: auto;
+  width: 350px;
+  margin-top: 10px;
+}
+
+.newInputModale{
+  padding: 7px;
+  border: 1px solid 5A5A5A;
+  border-radius: 4px;
+  margin: auto;
+  width: 317px;
+  margin-top: 10px;
+}
+
+/* COMPONENTS SETTINGS & CLIENTS */
+
+.greyCell{
+  padding: 5px 10px 10px 5px;
+  background-color: #F2F2F2;
+  border: 1px solid white;
+}
+
+/* CSS DE LA PAGE Dashboard */
+
+.titleDashboard{
+  color: #1FD274;
+  text-align: left;
+  font-weight: 900;
+  font-size: 2.3rem;
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+.headDashboard{
+  font-size: 1.5rem;
+}
+
+.textDashboard{
+  background-color: #F2F2F2;
+  border: 1px solid white;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1384px) {
+
+  .bigTitle{
+    text-align: center;
+  }
+
+  .icon-search{
+    top: 27%;
+  }
+
+  .btnAddProjet{
+    width: 100%;
+  }
+}

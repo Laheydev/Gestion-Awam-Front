@@ -1,0 +1,17 @@
+.inputTableau{
+  text-align: center;
+  background-color: #F2F2F2;
+  width: 25%;
+}
+
+.inputTableau:active{
+  border: 1px solid black;
+}
+
+.fixedWidth{
+  width: 150px;
+}
+
+.inputTableau:active{
+  border: 1px solid black;
+}
